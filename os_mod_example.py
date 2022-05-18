@@ -15,9 +15,9 @@ print(os.listdir()) # list directory as a list
 
 print(type(os.listdir())) #print class as list 
 
-print(os.mkdir("F:\\test_dir")) # create a empty directory in F drive
+#print(os.mkdir("F:\\test_dir")) # create a empty directory in F drive
 
-print(os.makedirs("F:\\abc\\ab\\a")) # create directory recursively like "mkdir -p" in linux
+#print(os.makedirs("F:\\abc\\ab\\a")) # create directory recursively like "mkdir -p" in linux
 
 # os.removedirs("F:\\xyz") # Delete the directory
 
@@ -27,4 +27,6 @@ print(os.makedirs("F:\\abc\\ab\\a")) # create directory recursively like "mkdir 
 
 # os.rename(src, dst)
 
-# print(os.environ)
+#print(os.environ)
+print(os.get_terminal_size())
+print(os.getpid()) #prints process id
