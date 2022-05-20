@@ -1,6 +1,6 @@
 #The sys module provides functions and variables used to manipulates different parts of the Python runtime environment 
 '''
-This script takes input fromuser and print accordingly
+This script takes input from user and print accordingly
 
 
 
@@ -37,7 +37,7 @@ import sys
 
 if len(sys.argv)!=3:
     print("Usage: ")
-    print(f"{sys.argv[0]} <your string> ---- <lower|upper|title>")
+    print(f"{sys.argv[0]} <your string> <lower|upper|title>")
     sys.exit()
 
 usr_str=sys.argv[1]
