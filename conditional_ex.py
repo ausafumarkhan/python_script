@@ -3,13 +3,13 @@
 print("This IT organisation has various skill sets")
 print("Find out your match")
 
-Devops=["Jenkis=ns","Bash","Python","Ansible","Docker"."Kubernetes","Terraform"]
+Devops=["Jenkins","Bash","Python","Ansible","Docker","Kubernetes","Terraform"]
 Development=["Java","NodeJs","Dotnet","PHP","HTML"]
 
 cntr_emp1={"Name":"Sunny","Skill":"Blockchain","code":1024}
 cntr_emp2={"Name":"Rocky","Skill":"AI","code":1018}
 
-usr_skill=inpu("Enter your skill:")
+usr_skill=input("Enter your skill:")
 
 print(usr_skill)
 
